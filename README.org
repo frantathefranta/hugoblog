@@ -1,2 +1,2 @@
 #+title: Readme
-[[file:/github.com/frantathefranta/hugoblog/actions/workflows/main.yaml/badge.svg][https://github.com/frantathefranta/hugoblog/actions]]
+[[https://github.com/frantathefranta/hugoblog/actions/workflows/main.yaml][file:/github.com/frantathefranta/hugoblog/actions/workflows/main.yaml/badge.svg]]
