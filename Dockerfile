@@ -1,7 +1,7 @@
 FROM hugomods/hugo:exts as builder
 
 # Base URL
-ARG HUGO_BASEURL="franta.us"
+ARG HUGO_BASEURL="https://franta.us"
 ENV HUGO_BASEURL=${HUGO_BASEURL}
 # Build site
 RUN git clone https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
