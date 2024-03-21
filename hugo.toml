@@ -22,6 +22,9 @@ copyright = "&copy; 2024, Frantisek Bartik"
         url = "/posts/"
         weight = -100
 
+[permalinks]
+  about = "/"
+
 [params]
     description = "My personal page"
     header_title = 'Frantisek "Franta" Bartik'
