@@ -1,4 +1,40 @@
+# taplo: $schema=https://json.schemastore.org/hugo.json
 baseURL = 'https://franta.us'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'ananke'
+title = "Franta's Blog"
+theme = 'devise'
+relativeURLs = true
+enableEmoji = true
+enableRobotsTXT = true
+copyright = "&copy; Copyright Year, Your Name"
+
+[menu]
+    [[menu.main]]
+        identifier = "about"
+        name = "About"
+        title = "About"
+        url = "/about/"
+        weight = -110
+    [[menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        title = "Posts"
+        url = "/posts/"
+        weight = -100
+
+[params]
+    description = "My personal page"
+    header_title = "Franta Bartik"
+    header_subtitle = "Homelab fiend"
+
+    [params.contact]
+    email = "fb@franta.us"
+    [[params.social]]
+        fa_icon = "fab fa-github fa-1x"          # Font Awesome icon class
+        href = "http://github.com/frantathefranta"      # Link to associate with icon (http://, https://, mailto:)
+    [[params.social]]
+        fa_icon = "fab fa-linkedin-in fa-1x"
+        href = "https://www.linkedin.com/in/frantisek-bartik-880/"
+    [[params.social]]
+        fa_icon = "fas fa-at fa-1x"
+        href = "fb@franta.us"
