@@ -6,9 +6,6 @@ ENV HUGO_BASEURL=${HUGO_BASEURL}
 # Build site
 COPY . /src
 RUN hugo --minify --gc
-# Copy front page to about page
-RUN mkdir /src/public/about
-RUN cp /src/public/index.html /src/public/about
 # Set the fallback 404 page if defaultContentLanguageInSubdir is enabled, please replace the `en` with your default language code.
 # RUN cp ./public/en/404.html ./public/404.html
 
