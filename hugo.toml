@@ -31,7 +31,7 @@ copyright = "&copy; 2024, Frantisek Bartik"
     email = "fb@franta.us"
     [[params.social]]
         fa_icon = "fab fa-github fa-1x"          # Font Awesome icon class
-        href = "http://github.com/frantathefranta"      # Link to associate with icon (http://, https://, mailto:)
+        href = "https://github.com/frantathefranta"      # Link to associate with icon (http://, https://, mailto:)
     [[params.social]]
         fa_icon = "fab fa-linkedin-in fa-1x"
         href = "https://www.linkedin.com/in/frantisek-bartik-880/"
