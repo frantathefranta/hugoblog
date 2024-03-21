@@ -7,6 +7,8 @@ on:
 
 jobs:
   docker:
+    env:
+      IMAGE: frantathefranta/hugoblog
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -27,4 +29,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: frantathefranta/hugoblog:latest
+          tags: |
+            ${{ env.IMAGE }}:${{ github.sha }}-${{ github.run_number }}
