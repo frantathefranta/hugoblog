@@ -1,2 +1,10 @@
 #+title: Readme
 [[https://github.com/frantathefranta/hugoblog/actions/workflows/main.yaml][https://github.com/frantathefranta/hugoblog/actions/workflows/main.yaml/badge.svg]]
+
+** Task List
+*** TODO Trim unneccesary folders and files in repo
+*** TODO Pick a better theme
+*** TODO Document how this works for a blog post
+** References
+*** [[https://github.com/docker/build-push-action?tab=readme-ov-file#path-context][Build Action for the Hugo Docker image]]
+*** [[https://hugomods.com/docs/docker/][Guide for building the Hugo Docker image]]

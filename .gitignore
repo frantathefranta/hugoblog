@@ -1,0 +1,10 @@
+# Added automatically
+.DS_Store
+.idea
+*.log
+tmp/
+
+# Hugo specifc
+public/
+resources/
+.hugo_build.lock
