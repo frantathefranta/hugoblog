@@ -37,4 +37,4 @@ copyright = "&copy; 2024, Frantisek Bartik"
         href = "https://www.linkedin.com/in/frantisek-bartik-880/"
     [[params.social]]
         fa_icon = "fas fa-at fa-1x"
-        href = "fb@franta.us"
+        href = "mailto:fb@franta.us"
