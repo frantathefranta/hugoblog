@@ -6,7 +6,7 @@ theme = 'devise'
 relativeURLs = true
 enableEmoji = true
 enableRobotsTXT = true
-copyright = "&copy; Copyright Year, Your Name"
+copyright = "&copy; 2024, Frantisek Bartik"
 
 [menu]
     [[menu.main]]
@@ -24,8 +24,8 @@ copyright = "&copy; Copyright Year, Your Name"
 
 [params]
     description = "My personal page"
-    header_title = "Franta Bartik"
-    header_subtitle = "Homelab fiend"
+    header_title = 'Frantisek "Franta" Bartik'
+    header_subtitle = "Datacenter Tech | Columbus, OH"
 
     [params.contact]
     email = "fb@franta.us"
