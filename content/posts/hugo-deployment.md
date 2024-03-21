@@ -1,6 +1,7 @@
 +++
 title = "Hugo Deployment"
 author = ["Franta Bartik"]
+date = 2024-03-21T16:50:00-04:00
 draft = false
 +++
 
