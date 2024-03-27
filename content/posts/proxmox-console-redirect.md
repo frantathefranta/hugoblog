@@ -1,6 +1,7 @@
 +++
 title = "Proxmox Console Redirect with systemd-boot bootloader"
 author = ["Franta Bartik"]
+date = 2024-03-27T11:50:00-04:00
 draft = false
 +++
 
