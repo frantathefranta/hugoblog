@@ -1,7 +1,6 @@
 +++
 title = "Proxmox Console Redirect with systemd-boot bootloader"
 author = ["Franta Bartik"]
-date = 2024-03-27T11:43:00-04:00
 draft = false
 +++
 
@@ -23,9 +22,9 @@ BootCurrent: 000A
 BootOrder: 000A,0008,0007,0009,0005
 [SNIP]
 Boot0007* EFI DVD/CDROM 1       PciRoot(0x0)/Pci(0x1f,0x2)/Sata(5,0,0)
-Boot0008* Linux Boot Manager    HD(2,GPT,51d0d4e3-8b8b-4976-94cb-d90c91646f48,0x800,0x200000)/File(\EFI\systemd\systemd-bootx64.efi)
-Boot0009* Integrated NIC 1 Port 1 Partition 1   VenHw(3a191845-5f86-4e78-8fce-c4cff59f9daa)
-Boot000A* Linux Boot Manager    HD(2,GPT,fe617336-c524-4a1b-8bdd-2bc3860974e1,0x800,0x200000)/File(\EFI\systemd\systemd-bootx64.efi)
+Boot0008* Linux Boot Manager    HD(2,GPT,<SNIP>)/File(\EFI\systemd\systemd-bootx64.efi)
+Boot0009* Integrated NIC 1 Port 1 Partition 1   VenHw(<SNIP>)
+Boot000A* Linux Boot Manager    HD(2,GPT,<SNIP>)/File(\EFI\systemd\systemd-bootx64.efi)
 ```
 
 You can see that the system is using the `\EFI\systemd\systemd-bootx64.efi` file to boot the system. My system is using UEFI but it should not matter for this setup, Legacy BIOS should work as well.
