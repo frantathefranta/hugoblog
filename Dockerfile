@@ -1,7 +1,7 @@
 FROM hugomods/hugo:exts as builder
 
 # Base URL
-ARG HUGO_BASEURL="https://franta.us"
+ARG HUGO_BASEURL="https://www.franta.us"
 ENV HUGO_BASEURL=${HUGO_BASEURL}
 # Build site
 COPY . /src

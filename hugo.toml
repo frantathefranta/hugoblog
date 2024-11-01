@@ -1,5 +1,5 @@
 # taplo: $schema=https://json.schemastore.org/hugo.json
-baseURL = 'https://franta.us'
+baseURL = 'https://www.franta.us'
 languageCode = 'en-us'
 title = "Franta's Blog"
 theme = 'devise'
